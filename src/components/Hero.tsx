@@ -49,15 +49,7 @@ export const Hero: React.FC = () => {
         {/* LEFT COLUMN: HERO INTRO */}
         <div className="lg:col-span-7 flex flex-col items-center lg:items-start text-center lg:text-left z-10">
           
-          {/* Badge */}
-          <motion.span 
-            initial={{ opacity: 0, scale: 0.5 }}
-            animate={{ opacity: 1, scale: 1 }}
-            transition={{ type: "spring", stiffness: 100 }}
-            className="bg-comic-blue text-white comic-border-sm comic-shadow-sm px-4 py-1.5 font-comic font-black text-sm uppercase tracking-widest mb-6 rotate-[-2deg] inline-block"
-          >
-            Hackathon Edition 🚀
-          </motion.span>
+
 
           {/* Heading */}
           <motion.h1 
